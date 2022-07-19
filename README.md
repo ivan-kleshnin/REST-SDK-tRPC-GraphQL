@@ -28,7 +28,7 @@ WIP: mostly client-side concerns so far...
 
 #### Cons
 
-- Caching is typically an unresolved question. :fearful:
+- Can be incompatible with caching layer (if SDK wraps promises with custom datatypes)
 - Bundle size increase. Some SDKs are quite heavy.
 
 ### tRPC (and other similar tools)
