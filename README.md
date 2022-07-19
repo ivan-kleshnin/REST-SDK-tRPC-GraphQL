@@ -6,10 +6,11 @@ WIP: mostly client-side concerns so far...
 
 #### Pros
 
-- The most basic approach
+- The most basic approach.
 - Authentication layer is typically REST so won't require a special treatment here.
 - Ecosystem of testing, QA, editor/IDE plugins etc. tools like Postman.
 - Caching is a solved problem. Check tools like [React-Query](https://tanstack.com/query/v3/) or [SWR](https://swr.vercel.app/).
+- BE and FE are decoupled: can be written in different languages.
 
 #### Cons
 
@@ -21,14 +22,14 @@ WIP: mostly client-side concerns so far...
 
 #### Pros
 
-- Most often is built on top of REST so REST pros can apply.
-- Easier to use than REST.
+- ...Most REST benefits (if built on top of REST which is typically the case).
+- Easier to use than REST – saves time to write your own SDK and/or support low-level code.
+- Typically comes with realtime primitives.
 
 #### Cons
 
-- Caching is typically an unsolved question. :fearful:
+- Caching is typically an unresolved question. :fearful:
 - Bundle size increase. Some SDKs are quite heavy.
-- Typically comes with realtime primitives.
 
 ### tRPC (and other similar tools)
 
@@ -36,8 +37,8 @@ https://trpc.io/
  
 #### Pros
 
-- ...All benefits of REST
-- Statically typed API
+- ...All benefits of REST.
+- Statically typed API.
 
 #### Cons
 
