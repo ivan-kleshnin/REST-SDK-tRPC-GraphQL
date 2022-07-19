@@ -1,4 +1,6 @@
-# REST vs SDK vs tRPC vs GraphQ
+# REST vs SDK vs tRPC vs GraphQL
+
+WIP: mostly client-side concerns so far...
 
 ### REST 
 
