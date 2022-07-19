@@ -1,4 +1,4 @@
-# REST API vs GraphQL APIs vs SDK vs tRPC
+# REST vs SDK vs tRPC vs GraphQ
 
 ### REST 
 
